@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Nemexia options
 // @namespace  http://github.com/dziulius
-// @version    0.1
+// @version    0.1.1
 // @description  enter something useful
 // @match      http*://*.nemexia.com/options*
 // @copyright  2012+, You
