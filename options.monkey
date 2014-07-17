@@ -53,5 +53,5 @@ unsafeWindow.pirateAll = function() {
 }
 $('body').prepend("<div style='position: fixed; z-index: 10000; width: 100px;'> \
         <div style='color: white; border: 2px solid green; background: black; position: absolute; top: 0px; left: 0px; padding: 5px;'><button onclick='attackAll()'>Attack All</button></div>\
-        <div style='color: white; border: 2px solid green; background: black; position: absolute; top: 0px; left: 0px; padding: 5px;'><button onclick='pirateAll()'>Pirate All</button></div>\
+        <div style='color: white; border: 2px solid green; background: black; position: absolute; top: 30px; left: 0px; padding: 5px;'><button onclick='pirateAll()'>Pirate All</button></div>\
     </div>")
