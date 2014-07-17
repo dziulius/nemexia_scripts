@@ -6,4 +6,5 @@
 // @match      http://*.nemexia.com/galaxy*
 // @copyright  2012+, You
 // @require https://raw.githubusercontent.com/dziulius/nemexia_scripts/master/galaxy.js
+// @updateURL https://raw.githubusercontent.com/dziulius/nemexia_scripts/master/galaxy.monkey
 // ==/UserScript==
