@@ -5,7 +5,7 @@
 // @description  enter something useful
 // @match      http*://*.nemexia.com/options*
 // @copyright  2012+, You
-// @updateURL
+// @updateURL https://raw.githubusercontent.com/dziulius/nemexia_scripts/master/options.monkey
 // ==/UserScript==
 
 
