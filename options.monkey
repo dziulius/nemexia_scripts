@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Nemexia options
 // @namespace  http://github.com/dziulius
-// @version    0.2.0
+// @version    0.2.1
 // @description  enter something useful
 // @match      http*://*.nemexia.com/options*
 // @copyright  2012+, You
@@ -32,7 +32,7 @@ unsafeWindow.attackAll = function() {
 
 
 unsafeWindow.pirateAll = function() {
-    var baseStart = "type=SendFleet&ship[1][3]=20&mission=7&speed=10&metal=0&crystal=0&gas=0&scrap=0&";
+    var baseStart = "type=SendFleet&ship[1][3]=5&mission=7&speed=10&metal=0&crystal=0&gas=0&scrap=0&";
     var baseEnd = "&battle_rounds=12&speed_motivation=0&scrap_motivation=0&flight_hours=0&flight_minutes=5";
 
     $('.messageBody a').each(function(i, e) {
