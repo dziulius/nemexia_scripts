@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Galaxy 2.0
 // @namespace  http://github.com/dziulius
-// @version    0.1.2
+// @version    0.1.3
 // @description  stuff
 // @match      http://*.nemexia.com/galaxy*
 // @copyright  2012+, You
