@@ -154,7 +154,7 @@ unsafeWindow.searchAsteroids = function() {
                 flightTime -= secondsPerField;
             }
 
-            var destination = "type=SendFleet&ship[1][11]=3&mission=8&speed=10&metal=0&crystal=0&gas=0&scrap=0&" + "c1=" + cordinates[0] + "&c2=" + cordinates[1] + "&c3=" + cordinates[2] + "&battle_rounds=12&speed_motivation=0&scrap_motivation=0&flight_hours=0&flight_minutes=5";
+            var destination = "type=SendFleet&ship[1][11]=1&mission=8&speed=10&metal=0&crystal=0&gas=0&scrap=0&" + "c1=" + cordinates[0] + "&c2=" + cordinates[1] + "&c3=" + cordinates[2] + "&battle_rounds=12&speed_motivation=0&scrap_motivation=0&flight_hours=0&flight_minutes=5";
 
             $.post("ajax_fleets.php", destination).always(function(data) {
                 try {
