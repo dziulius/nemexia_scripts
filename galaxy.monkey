@@ -8,6 +8,8 @@
 // @updateURL https://raw.githubusercontent.com/dziulius/nemexia_scripts/master/galaxy.monkey
 // ==/UserScript==
 
+unsafeWindow.FLEETS_SPEED = unsafeWindow.FLEETS_SPEED || 1
+
 unsafeWindow.getInfo = function(cordinates, callback) {
     $.post("ajax_info.php", {
         type: 'squareInfo',
