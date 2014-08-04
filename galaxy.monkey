@@ -89,7 +89,7 @@ unsafeWindow.calculateTime = function(source, target, speed) {
     var tc3 = parseInt(target[2]);
 
     if (sc1 == tc1 && sc2 == tc2 && sc3 == tc3) {
-        return Math.round((20 * 60) / (speed / 10));
+        return (Math.round((20 * 60) / (speed / 10))) * FLEETS_SPEED;
     } else {
         var distance
         if (sc1 != tc1) {
@@ -100,7 +100,7 @@ unsafeWindow.calculateTime = function(source, target, speed) {
             distance = 1000 + Math.abs((sc3 - tc3) * 5);
         }
 
-        return Math.round(3500 * Math.sqrt(distance * 10 / speed)) + 10;
+        return (Math.round(3500 * Math.sqrt(distance * 10 / speed)) + 10) * FLEETS_SPEED;
     }
 }
 
